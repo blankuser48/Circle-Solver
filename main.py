@@ -1,9 +1,15 @@
 import math
 
 # given values
-w = 101  # top-right value
-y = 97  # bottom-right value
-z = 98  # given arc
+w = 0  # top-right value
+y = 0  # bottom-right value
+z = 0  # given arc
+
+# get values
+w = int(input("Enter value for Top Right Value: "))
+y = int(input("Enter value for Bottom Right Value: "))
+z = int(input("Enter Value for Given Arc: "))
+print("\n\n")
 
 # find a
 a = 0
